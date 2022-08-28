@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap');
+
+/* TIPOGRAFIAS
+font-family: 'Alegreya', serif;
+*/
+
+body {
+    background-color: #f5f5f7;
+}
+
+/* INICIO NAVBAR */
+.nav-color {
+    background-color: rgb(49, 49, 50);
+}
+
+.logo {
+    width: 1.7rem;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+    font-family: 'Alegreya', serif;
+    font-size: 1.1rem;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    padding: 0px;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+/* FIN NAVBAR */
+
+/* INICIO BANNER */
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloBanner {
+    text-align: center;
+    animation-name: zoom;
+    animation-duration: 0.5s;
+    animation-iteration-count: unset;
+}
+
+.tituloBanner h1 {
+    font-family: 'Alegreya', serif;
+    font-size: 12vw;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.tituloBanner h2 {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 8vw;
+}
+
+.colorLila {
+    color: #bb3566;
+}
+
+.imgBanner {
+    height: 95vw;
+}
+
+/* FIN BANNER */
+
+/* INICIO SECTION 1 */
+.section1 {
+    border-top: 5px white solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 h2 {
+    margin-top: 8px;
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.tamañoFotos {
+    width: 90vw;
+    border-radius: 5.5vw;
+    margin-bottom: 12px;
+}
+
+.tamañoFotos:hover {
+    transform: scale(1.05, 1.05);
+    transition: 0.3s;
+}
+
+/* FIN SECTION 1 */
+
+/* INICIO CAROUSEL */
+.carousel-caption h2,
+.row h2,
+.row h5 {
+    font-family: 'Alegreya', serif;
+    font-weight: 900;
+}
+
+.carousel-caption p,
+.row p,
+.footer h4,
+.form-label {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+}
+
+/* FIN CAROUSEL */
+
+/* INICIO SECTION 2 */
+.section2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-top: 5px white solid;
+}
+
+.textoVideo {
+    margin: 5px 8px;
+}
+
+.textoVideo h2 {
+    font-family: 'Alegreya', serif;
+    font-size: 10vw;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.textoVideo p {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 3.7vw;
+    line-height: 1.3;
+}
+
+.contenedorVideo {
+    width: 100vw;
+    height: 55vw;
+    margin-bottom: 5px;
+}
+
+/* FIN SECTION 2 */
+
+/* INICIO AIRPODS */
+.tamaño-foto {
+    max-width: 85%;
+}
+
+.row {
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 100%;
+}
+
+/* FIN AIRPODS */
+
+/* INICIO FOOTER */
+/* INICIO REDES SOCIALES Y TELEFONO */
+.footer {
+    background-color: #9C9C9C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloRedes {
+    font-family: 'Alegreya', serif;
+    font-size: 6vw;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 5px;
+    text-align: center;
+}
+
+.iconSocial {
+    display: flex;
+    justify-content: space-evenly;
+    width: 65vw;
+    margin: 3px 0px;
+}
+
+.iconSocial a img {
+    height: 10vw;
+}
+
+.telefono {
+    text-align: center;
+}
+
+.telefono h4 {
+    font-family: 'Alegreya', serif;
+    font-weight: 400;
+    font-size: 5.7vw;
+}
+
+.telefono p {
+    font-size: 4vw;
+}
+
+/* FIN REDES SOCIALES Y TELEFONO */
+/* INICIO EMAIL */
+.email h4,
+label {
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 4vw;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario input,
+select {
+    width: 45vw;
+    height: 3vh;
+    margin: 3px;
+    border-radius: 8px;
+    font-size: 3vw;
+}
+
+.formulario textarea {
+    margin: 3px;
+    border-radius: 8px;
+    width: 60vw;
+    height: 15vh;
+    font-size: 3vw;
+}
+
+.formulario input:focus,
+textarea:focus {
+    background-color: #eaeaea;
+}
+
+.boton input {
+    width: 23vw;
+    height: auto;
+    font-size: 3vw;
+}
+
+/* FIN EMAIL */
+/* INICIO MAPA */
+.contenedorMapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mapa {
+    width: 80vw;
+    height: 30vh;
+    margin-bottom: 8px;
+}
+
+.contenedorMapa iframe {
+    border-radius: 8px;
+}
+
+.contenedorMapa h4 {
+    text-align: center;
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+    font-size: 4vw;
+    margin-bottom: 3px;
+}
+
+/* FIN MAPA */
+
+/* FIN FOOTER */
+
+@keyframes zoom {
+    0% {
+        transform: scale(0.0);
+    }
+
+    10% {
+        transform: scale(0.1);
+    }
+
+    20% {
+        transform: scale(0.2);
+    }
+
+    30% {
+        transform: scale(0.3);
+    }
+
+    40% {
+        transform: scale(0.4);
+    }
+
+    50% {
+        transform: scale(0.5);
+    }
+
+    60% {
+        transform: scale(0.6);
+    }
+
+    70% {
+        transform: scale(0.7);
+    }
+
+    80% {
+        transform: scale(0.8);
+    }
+
+    90% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* INICIO BANNER */
+    .banner {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .tituloBanner {
+        text-align: left;
+    }
+
+    .tituloBanner h1 {
+        font-size: 7vw;
+        width: 35vw;
+    }
+
+    .tituloBanner h2 {
+        font-size: 4vw;
+    }
+
+    .imgBanner {
+        height: 40vw;
+    }
+
+    /* FIN BANNER */
+
+    /* INICIO SECTION 1 */
+    .section1,
+    .section2,
+    .footer,
+    .carousel {
+        border-top: 8px white solid;
+    }
+
+    .fotos {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .tamañoFotos {
+        width: 30vw;
+        border-radius: 2.5vw;
+        margin-bottom: 15px;
+    }
+
+    /* FIN SECTION 1 */
+
+    /* INICIO SECTION 2 */
+    .section2 {
+        flex-direction: row-reverse;
+    }
+
+    .contenedorVideo {
+        width: 220vw;
+        height: 30vw;
+        margin-bottom: 0px;
+    }
+
+    .textoVideo {
+        width: 200vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .textoVideo h2 {
+        font-size: 4vw;
+    }
+
+    .textoVideo p {
+        font-size: 1.8vw;
+    }
+
+    /* FIN SECTION 2 */
+
+    /* INICIO FOOTER */
+    .footer {
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 6px 0px;
+    }
+
+    /* INICIO SOCIAL Y TELEFONO */
+    .socialTelefono {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tituloRedes {
+        font-size: 2.5vw;
+    }
+
+    .iconSocial {
+        width: 20vw;
+    }
+
+    .iconSocial a img {
+        height: 4vw;
+    }
+
+    .telefono h4 {
+        font-size: 2.7vw;
+    }
+
+    .telefono p {
+        font-size: 2vw;
+    }
+
+    /* FIN SOCIAL Y TELEFONO */
+    /* INICIO EMAIL */
+    .email h4,
+    label {
+        font-size: 2vw;
+    }
+
+    .formulario input,
+    select {
+        width: 26.5vw;
+        font-size: 1.1vw;
+    }
+
+    .formulario textarea {
+        width: 32vw;
+        font-size: 1.1vw;
+    }
+
+    .boton input {
+        width: 10vw;
+        height: auto;
+        font-size: 1vw;
+    }
+
+    /* FIN EMAIL */
+    /* INICIO MAPA */
+    .contenedorMapa h4 {
+        font-size: 2vw;
+    }
+
+    .mapa {
+        width: 28vw;
+    }
+
+    /* FIN MAPA */
+    /* FIN FOOTER */
+}
